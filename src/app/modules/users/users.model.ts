@@ -1,7 +1,7 @@
 import { Schema, model, Model } from 'mongoose'
 import { IUser } from './users.interface'
 
-// Create a new Model type (STATIC that knows about IUserMethods...
+// Create a new Model type (STATIC) that knows about IUserMethods...
 type UserModel = Model<IUser, object>
 
 const userSchema = new Schema<IUser>(
