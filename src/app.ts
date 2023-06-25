@@ -10,6 +10,9 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+//set env for development
+app.get('env')
+
 //Application routes
 app.use('/api/v1/users/', usersRouter)
 
