@@ -46,3 +46,15 @@ TIME: Mon Jun 26 2023 2 40 32: [Success!] info: Example app listening on port 50
   label: 'Success!',
   timestamp: '2023-06-25T20:42:54.166Z'
 }
+{
+  message: 'DB Connected',
+  level: 'info',
+  label: 'Success!',
+  timestamp: '2023-06-25T20:50:42.562Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'Success!',
+  timestamp: '2023-06-25T20:50:42.567Z'
+}
