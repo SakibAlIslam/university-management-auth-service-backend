@@ -16,7 +16,7 @@ const handleValidationError = (
   const statusCode = 400
   return {
     statusCode,
-    message: 'Validation Error',
+    message: 'Validation Error from Frontend, Send Proper data',
     errorMessages: errors,
   }
 }
