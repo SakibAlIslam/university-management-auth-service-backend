@@ -22,7 +22,7 @@ const logger = createLogger({
   transports: [
     new transports.Console(),
     new transports.File({
-      filename: path.join(process.cwd(), 'logs/winston', 'sucsess.log'),
+      filename: path.join(process.cwd(), 'logs/winston', 'success.log'),
       level: 'info',
     }),
   ],

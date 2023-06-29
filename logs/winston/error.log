@@ -1,0 +1,44 @@
+{
+  level: 'error',
+  label: 'Error!',
+  timestamp: '2023-06-29T20:45:58.662Z'
+}
+{
+  level: 'error',
+  message: 'unhandledRejection is detected, we are closing our server x is not defined',
+  stack: 'ReferenceError: x is not defined\n' +
+    '    at C:\\Web Development\\university-management-auth-service-backend\\src\\app.ts:22:14\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\Web Development\\university-management-auth-service-backend\\src\\app.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\Web Development\\university-management-auth-service-backend\\src\\app.ts:4:12)\n' +
+    '    at C:\\Web Development\\university-management-auth-service-backend\\src\\app.ts:21:39\n' +
+    '    at Layer.handle [as handle_request] (C:\\Web Development\\university-management-auth-service-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Web Development\\university-management-auth-service-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Web Development\\university-management-auth-service-backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Web Development\\university-management-auth-service-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'Error!',
+  timestamp: '2023-06-29T20:58:25.356Z'
+}
+{
+  level: 'error',
+  message: 'unhandledRejection is detected, we are closing our server: x is not defined',
+  stack: 'ReferenceError: x is not defined\n' +
+    '    at C:\\Web Development\\university-management-auth-service-backend\\src\\app.ts:22:14\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\Web Development\\university-management-auth-service-backend\\src\\app.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\Web Development\\university-management-auth-service-backend\\src\\app.ts:4:12)\n' +
+    '    at C:\\Web Development\\university-management-auth-service-backend\\src\\app.ts:21:39\n' +
+    '    at Layer.handle [as handle_request] (C:\\Web Development\\university-management-auth-service-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Web Development\\university-management-auth-service-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Web Development\\university-management-auth-service-backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Web Development\\university-management-auth-service-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'Error!',
+  timestamp: '2023-06-29T20:59:25.835Z'
+}
+{
+  level: 'error',
+  label: 'Error!',
+  timestamp: '2023-06-29T20:59:50.696Z'
+}

@@ -18,8 +18,8 @@ app.get('env')
 app.use('/api/v1/users/', UserRoutes.router)
 
 //Testing
-// app.get('/', (req, res) => {
-//   throw new ApiError(400, 'Ore baba')
+// app.get('/', async (req, res, next) => {
+//  console.log(x);
 // })
 // app.get('/', (req:Request, res:Response, next: NextFunction) => {
 //   throw new Error("Instance error");
