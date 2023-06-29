@@ -1,15 +1,15 @@
-import { createLogger, format, transports } from 'winston'
-const { combine, timestamp, label, printf, prettyPrint } = format
-import path from 'path'
+import { createLogger, format, transports } from 'winston';
+const { combine, timestamp, label, printf, prettyPrint } = format;
+import path from 'path';
 
 //custom log format
 const myFormat = printf(({ level, message, label, timestamp }) => {
-  const date = new Date(timestamp)
-  const hour = date.getHours()
-  const mins = date.getMinutes()
-  const secs = date.getSeconds()
-  return `TIME: ${date.toDateString()} ${hour}h ${mins}m ${secs}s: [${label}] ${level}: ${message}`
-})
+  const date = new Date(timestamp);
+  const hour = date.getHours();
+  const mins = date.getMinutes();
+  const secs = date.getSeconds();
+  return `TIME: ${date.toDateString()} ${hour}h ${mins}m ${secs}s: [${label}] ${level}: ${message}`;
+});
 
 const logger = createLogger({
   level: 'info',
@@ -26,7 +26,7 @@ const logger = createLogger({
       level: 'info',
     }),
   ],
-})
+});
 
 const errorLogger = createLogger({
   level: 'error',
@@ -43,6 +43,6 @@ const errorLogger = createLogger({
       level: 'error',
     }),
   ],
-})
+});
 
-export { logger, errorLogger }
+export { logger, errorLogger };
