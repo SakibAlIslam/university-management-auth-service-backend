@@ -22,3 +22,15 @@
   label: 'Success!',
   timestamp: '2023-06-29T21:02:25.804Z'
 }
+{
+  message: 'DB Connected',
+  level: 'info',
+  label: 'Success!',
+  timestamp: '2023-06-29T21:07:28.927Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'Success!',
+  timestamp: '2023-06-29T21:07:28.933Z'
+}
