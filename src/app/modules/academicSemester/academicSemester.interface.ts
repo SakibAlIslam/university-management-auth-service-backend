@@ -1,5 +1,10 @@
 import { Model } from 'mongoose';
 
+export type ISemesterMonth = {
+  startMonth: string;
+  endMonth: string;
+};
+
 export type Month =
   | 'January'
   | 'February'
