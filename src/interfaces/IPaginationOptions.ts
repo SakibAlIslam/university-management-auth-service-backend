@@ -1,8 +1,8 @@
-import { ParsedQs } from 'qs';
+import { SortOrder } from 'mongoose';
 
 export type IPaginationOptions = {
   page?: number;
   limit?: number;
-  sortBy?: string | ParsedQs | string[] | ParsedQs[] | undefined;
-  sortOrder?: 'asc' | 'desc' | '1' | '-1';
+  sortBy?: string;
+  sortOrder?: SortOrder;
 };
